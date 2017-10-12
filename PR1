@@ -1,0 +1,129 @@
+<!DOCTYPE html> 
+<html lang="en-us" class="no-js">
+   <head>
+      <meta charset="UTF-8">
+      <title>Random Team Generator &mdash; Split a list into random groups</title>
+      <meta name="description" content="Paste your list and we'll randomly separate it into groups. You can specify as many groups as you need. Easily generate random teams or random groups." />
+      <link rel="canonical" href="https://www.randomlists.com/team-generator" />
+      <script type="text/javascript"> var rand = "custom-list-group"; var rand_process = "custom-list-group"; var rand_process_args = ""; </script> 
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="/misc/css/main.v20170222-1237.css">
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <script> (adsbygoogle = window.adsbygoogle || []).push({ google_ad_client: "ca-pub-5711305288167877", enable_page_level_ads: true }); </script> <script> (function() { var cx = '011905864977512329815:ffo3fwnagpc'; var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true; gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//www.google.com/cse/cse.js?cx=' + cx; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s); })(); </script> 
+   </head>
+   <body>
+      <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5TFCRS" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-5TFCRS');</script> 
+      <header>
+         <div class="layout">
+            <div class="layout-left">
+               <nav class="primary">
+                  <a href="/" class="logo">RandomLists</a> 
+                  <gcse:searchbox-only enableAutoComplete="true" resultsUrl="https://www.randomlists.com/search"></gcse:searchbox-only>
+               </nav>
+               <div id="suggestive" class="less">
+                  <nav> <a href="/list-randomizer"><span>Custom List</span></a> </nav>
+               </div>
+            </div>
+         </div>
+      </header>
+      <div class="layout">
+         <div class="layout-left">
+            <div class="slotA">
+               <ins class="adsbygoogle ad--A" style="display:inline-block" data-ad-client="ca-pub-5711305288167877" data-ad-slot="3781211666"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
+            </div>
+            <main>
+               <h1>Random Team Generator:</h1>
+               <div id="loading_result" class="custom-list-group">
+                  <ol id="result">
+                     <li>
+                        <h6>Group 1</h6>
+                        <ol>
+                           <li><span>Saul</span></li>
+                           <li><span>Jane</span></li>
+                           <li><span>Hank</span></li>
+                           <li><span>Todd</span></li>
+                        </ol>
+                     </li>
+                     <li>
+                        <h6>Group 2</h6>
+                        <ol>
+                           <li><span>Hector</span></li>
+                           <li><span>Holly</span></li>
+                           <li><span>Gustavo</span></li>
+                           <li><span>Walter</span></li>
+                        </ol>
+                     </li>
+                     <li>
+                        <h6>Group 3</h6>
+                        <ol>
+                           <li><span>Pete</span></li>
+                           <li><span>Mike</span></li>
+                           <li><span>Jesse</span></li>
+                           <li><span>Gale</span></li>
+                        </ol>
+                     </li>
+                     <li>
+                        <h6>Group 4</h6>
+                        <ol>
+                           <li><span>Lydia</span></li>
+                           <li><span>Skyler</span></li>
+                           <li><span>Brock</span></li>
+                           <li><span>Marie</span></li>
+                        </ol>
+                     </li>
+                  </ol>
+               </div>
+               <script> function tidy_result_grid(){ var tidy_result_style = document.getElementById('tidy_result2'); if(tidy_result_style){ tidy_result_style.innerHTML = ''; } else{ tidy_result_style = document.createElement("style"); tidy_result_style.setAttribute('id','tidy_result2'); document.getElementsByTagName('head')[0].appendChild(tidy_result_style); } var result_width = document.getElementById('result').offsetWidth; var results_lis = document.querySelectorAll("#loading_result ol > li"); var t = document.querySelectorAll("#loading_result ol ol > li"); if(t.length>0){ results_lis = t; } var widest_width = 0; for (var i = 0; i < results_lis.length; i++){ var w = results_lis[i].offsetWidth; if(w > widest_width){ widest_width = w; } } var w_perc = 1 / Math.floor(result_width/widest_width); w_perc = w_perc<1 ? w_perc : 1; tidy_result_style.innerHTML = '#loading_result ol > li{min-width:'+(100*w_perc)+'%;}'; } tidy_result_grid(); </script> 
+               <div class="under-rand">
+                  <div>
+                     <form id="options" method="get">
+                        <table>
+                           <tr>
+                              <td colspan="2"> Options: </td>
+                           </tr>
+                           <tr>
+                              <td> <label>Items</label> <em></em> </td>
+                              <td><textarea name="items">Brock &#13;&#10;Gale &#13;&#10;Gustavo &#13;&#10;Hank &#13;&#10;Hector &#13;&#10;Holly &#13;&#10;Jane &#13;&#10;Jesse &#13;&#10;Lydia &#13;&#10;Marie &#13;&#10;Mike &#13;&#10;Pete &#13;&#10;Saul &#13;&#10;Skyler &#13;&#10;Todd &#13;&#10;Walter</textarea></td>
+                           </tr>
+                           <tr>
+                              <td> <label>Groups</label> <em></em> </td>
+                              <td><input type="number" name="grp" value="4"></td>
+                           </tr>
+                           <tr>
+                              <td colspan="2"> <input type="hidden" name="rand_id" value="129"> <input type="submit" name="submit" value="Refresh"> </td>
+                           </tr>
+                        </table>
+                     </form>
+                  </div>
+                  <div class="copy">
+                     <h2>How to create randomized groups</h2>
+                     <p><strong>Enter each item on a new line, choose the amount of groups unders settings, and click the button to generate your randomized list.</strong> Don't like the first team? Just click again until you do.</p>
+                     <p>Fairly pick teams without bias. No need to draw names out of a hat. No need to do a grade school style draft or put hours of thought into the most balanced teams. The most fair dividing method possible is random.</p>
+                     <p>Mix up your to-do list by generating random groups out of them. For example, enter all your housecleaning activities and split them into seven groups, one for each day or one for each person.</p>
+                     <p>Just want a single group? Use the <a href="/list-randomizer">list randomizer</a>.</p>
+                     <p style="margin-bottom:0;"><strong>Similar to this:</strong></p>
+                     <ul style="margin-top:0;">
+                        <li><a href="/list-randomizer">Custom List</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </main>
+         </div>
+         <div class="layout-right">
+            <div class="slotB">
+               <ins class="adsbygoogle ad--B" style="display:inline-block" data-ad-client="ca-pub-5711305288167877" data-ad-slot="2304478467"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
+            </div>
+            <div class="slotC">
+               <ins class="adsbygoogle ad--C" style="display:inline-block" data-ad-client="ca-pub-5711305288167877" data-ad-slot="1928302466"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
+            </div>
+         </div>
+      </div>
+      <footer class="layout">
+         <div class="layout-left">
+            <nav>Looking for something else? <br><a href="/list-randomizer">Create a random list</a>, <a href="/team-generator">generate a random team</a>, <a href="/">browse the site</a>, <a href="/search">search</a> or <a href="/random-random-lists">browse randomly</a>!</nav>
+            <nav class="minor"><a href="/policies">Policies</a> | <a href="/contact">Suggestions</a> | <a href="/contact">Contact</a></nav>
+         </div>
+      </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> <script src="/misc/js/jquery.imagesloaded.min.js"></script> <script type="text/javascript" defer src="/misc/js/main.v20170123-0933.js"></script> <script type='text/javascript' defer src='/rand/custom-list-group.v20170120-1119.js'></script> <script> var server_cache_unix = 1489766067; var page_age = Math.floor(new Date().getTime()/1000) - server_cache_unix; </script> 
+   </body>
+</html>
